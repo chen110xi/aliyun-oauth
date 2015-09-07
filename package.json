@@ -1,6 +1,6 @@
 {
   "name": "aliyun-oauth",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Aliyun OAuth client for ES6",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JacksonTian/aliyun-oauth.git"
+    "url": "git+https://github.com/ali-sdk/aliyun-oauth.git"
   },
   "keywords": [
     "Aliyun",
@@ -17,9 +17,9 @@
   "author": "Jackson Tian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JacksonTian/aliyun-oauth/issues"
+    "url": "https://github.com/ali-sdk/aliyun-oauth/issues"
   },
-  "homepage": "https://github.com/JacksonTian/aliyun-oauth#readme",
+  "homepage": "https://github.com/ali-sdk/aliyun-oauth#readme",
   "dependencies": {
     "httpx": "~1.0.0",
     "streamx": "~1.0.0"

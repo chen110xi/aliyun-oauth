@@ -8,7 +8,7 @@ $ npm install aliyun-oauth --save
 
 ## Documentation
 
-文档地址： http://doxmate.cool/JacksonTian/aliyun-oauth/index.html
+文档地址： http://doxmate.cool/ali-sdk/aliyun-oauth/index.html
 
 ## Usage
 

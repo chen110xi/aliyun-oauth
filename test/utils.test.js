@@ -4,11 +4,6 @@ var utils = require('../lib/utils');
 var expect = require('expect.js');
 
 describe('/utils', function () {
-  it('sha1 should ok', function () {
-    var encoded = utils.sha1('str', 'key');
-    expect(encoded).to.be('9vAr1rpJso899Agi7+cpGlf0LKI=');
-  });
-
   it('createTimestamp should ok', function () {
     var timestamp = utils.createTimestamp();
     expect(timestamp * 1000).to.be.below(Date.now());
@@ -28,6 +23,6 @@ describe('/utils', function () {
 
   it('buildAuth should ok', function () {
     var val = utils.buildAuth([['oauth_token', 'token'], ['key', 'value']]);
-    expect(val).to.be('OAuth oauth_token="token"');
+    expect(val).to.be('OAuth oauth_token="token", key="value"');
   });
 });

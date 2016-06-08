@@ -4,7 +4,7 @@ var OAuth = require('../');
 var expect = require('expect.js');
 
 describe('/openapi', function () {
-  it('load should ok', function * () {
+  it('load should ok', function* () {
     var client = new OAuth('QpavStUJkTjCGixr', 'secret');
     try {
       yield client.load('token', 'secret');
@@ -15,7 +15,7 @@ describe('/openapi', function () {
     expect(false).to.be('should not execute to here');
   });
 
-  it('aliyunid_kp should ok', function * () {
+  it('aliyunid_kp should ok', function* () {
     var client = new OAuth('QpavStUJkTjCGixr', 'secret');
     try {
       yield client.aliyunid_kp('token', 'secret');
@@ -26,7 +26,7 @@ describe('/openapi', function () {
     expect(false).to.be('should not execute to here');
   });
 
-  it('timestamp should ok', function * () {
+  it('timestamp should ok', function* () {
     var client = new OAuth('QpavStUJkTjCGixr', 'secret');
     try {
       yield client.timestamp('secret');
@@ -37,7 +37,7 @@ describe('/openapi', function () {
     expect(false).to.be('should not execute to here');
   });
 
-  it('check should ok', function * () {
+  it('check should ok', function* () {
     var client = new OAuth('QpavStUJkTjCGixr', 'secret');
     try {
       yield client.check('aliyunid', 'token', 'secret');
@@ -48,7 +48,7 @@ describe('/openapi', function () {
     expect(false).to.be('should not execute to here');
   });
 
-  it('check_accesstoken_kp should ok', function * () {
+  it('check_accesstoken_kp should ok', function* () {
     var client = new OAuth('QpavStUJkTjCGixr', 'secret');
     try {
       yield client.check_accesstoken_kp('kp', 'token', 'secret');

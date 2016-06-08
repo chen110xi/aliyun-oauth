@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/ali-sdk/aliyun-oauth#readme",
   "dependencies": {
-    "httpx": "~1.0.0",
-    "streamx": "~1.0.0"
+    "httpx": "2.0.0",
+    "kitx": "^1.0.0"
   },
   "devDependencies": {
     "co-mocha": "1.0.3",

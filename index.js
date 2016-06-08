@@ -1,9 +1,9 @@
 'use strict';
 
-var util = require('util');
+const OAuth = require('./lib/oauth');
 
-var OAuth = require('./lib/oauth');
-util._extend(OAuth.prototype, require('./lib/openapi'));
-util._extend(OAuth.prototype, require('./lib/innerapi'));
+Object.assign(OAuth.prototype,
+  require('./lib/openapi'),
+  require('./lib/innerapi'));
 
 module.exports = OAuth;

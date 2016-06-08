@@ -1,6 +1,6 @@
 {
   "name": "aliyun-oauth",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Aliyun OAuth client for ES6",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,8 @@
   "devDependencies": {
     "co-mocha": "1.0.3",
     "expect.js": "*",
-    "istanbul-harmony": "*",
+    "istanbul": "*",
     "mocha": "*"
-  }
+  },
+  "files": ["lib", "index.js"]
 }
